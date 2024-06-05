@@ -28,7 +28,7 @@ class MagicGladiator:
         self.min_elemental_damage = self.strength/10 + self.energy/14
         self.max_elemental_damage = self.strength/6 + self.energy/8
         self.elemental_defense = self.agility/5
-         
+
 
     def level_up(self):
         self.level += 1
@@ -164,10 +164,6 @@ print(f"Damage dealt to enemy: {damage}")
 armor_defense = 5
 defense = player1.calculate_defense(armor_defense)
 print(f"Total defense: {defense}")
-
-# Comprobar si el personaje puede subir de nivel
-player1.check_level_up(exp_table)
-
 
 
 # Guardar los cambios del personaje
